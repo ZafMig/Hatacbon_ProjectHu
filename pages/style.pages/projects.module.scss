@@ -1,0 +1,21 @@
+.Main{
+
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+    padding: 40px 100px;
+    width: 50%;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 15px;
+    &__Projects{
+       &-text{
+        font-size: 29px;
+       }
+       &-blocks{
+        background-color: #fff;
+            box-shadow: 0 0 15px rgba(0,0,0,.1);
+            width: 40%;
+            border-radius: 15px;
+       }
+    }
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Montserrat&display=swap");
+
+.UIButton {
+}
+.UIButton.string {
+  position: absolute;
+  padding: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  top: 12px;
+  right: 120px;
+  text-align: center;
+  z-index: 200;
+  color: white;
+  border-color: white;
+  border-radius: 2px;
+  outline: 1px solid white;
+  margin-right: 5px;
+}
+.UIButton.number {
+  position: absolute;
+  padding: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  top: 12px;
+  right: 15px;
+  text-align: center;
+  z-index: 200;
+  color: rgb(0, 0, 0);
+  background-color: gold;
+  border-color: white;
+  border-radius: 2px;
+  outline: 1px solid gold;
+  margin-right: 5px;
+  margin-left: 5px;
+  svg {
+    width: 10px;
+    padding-right: 5px;
+  }
+}
+.UIButton.radio {
+  user-select: none;
+  margin-top: 15px;
+  width: 15%;
+  cursor: pointer;
+  background-color: #ffffff89;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  outline: 1px solid;
+  border-radius: 5px;
+  padding: 3px;
+}
+.UIButton.radio:hover {
+  transition: 500ms;
+  color: white;
+  outline: 1px solid rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.597);
+}
+.UIButton.radio:not(:hover) {
+  transition: 500ms;
+}
+.UIButton.range {
+  user-select: none;
+  cursor: pointer;
+  color: rgb(194, 40, 132);
+  text-decoration: none;
+}
+.UIButton.active {
+  margin-top: 20px;
+  cursor: pointer;
+  user-select: none;
+}

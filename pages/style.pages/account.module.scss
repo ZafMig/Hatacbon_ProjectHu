@@ -1,0 +1,21 @@
+.Main{
+    padding: 40px 100px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+    border-radius: 15px;
+    width: 50%;   
+
+    &__Account{
+
+        &-block{
+
+            &__text{
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 29px;
+            }
+        }
+    }
+}

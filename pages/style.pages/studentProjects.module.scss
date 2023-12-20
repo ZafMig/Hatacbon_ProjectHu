@@ -1,0 +1,66 @@
+.Main{
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+    padding: 40px 100px;
+    width: 50%;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 15px;
+    &__Block{
+
+        &-text{
+           font-size: 13px;
+        }
+
+        &-works{
+            background-color: #fff;
+            box-shadow: 0 0 15px rgba(0,0,0,.1);
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            border-radius: 15px;
+            
+
+            &__work{
+
+                &-button{
+                    background-color: #a430cd;
+                    border-radius: 15px;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__succes{
+            &-text{
+                font-size: 29px;
+            }
+            &-works{
+                &-complete{
+                    background-color: #fff;
+                    box-shadow: 0 0 15px rgba(0,0,0,.1);
+                    width: 45%;
+                   
+                    display: flex;
+                    justify-content: space-between;
+                    border-radius: 15px;
+                    margin: 10px;
+                    &-text{
+                       padding: 10px;
+                    }
+                    &-textt{
+                        padding: 10px;
+                        background-color: #a430cd;
+                        border-radius: 15px;
+                        color: #fff;
+                        cursor: pointer;
+                }
+                }
+            }
+        }
+
+
+
+    }
+}

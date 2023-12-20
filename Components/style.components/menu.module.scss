@@ -1,0 +1,56 @@
+.Header{
+    background-color: #fff;
+    height: 72px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0,0,0,.1);
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+
+   &__Menu{
+    height: 73px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    padding-left: 50px;
+
+    &__Main{
+
+        &__wrap{
+            padding: 13px;
+            font-size: 18px;
+            justify-content: space-between;
+            text-decoration: none;
+            color: black;
+        }
+
+       &__block{
+        padding-left: 350px;
+       }
+
+       &__icons{
+        padding: 50px;
+    }
+
+    &__input{
+      
+        &-search{
+            padding-left:50px ;
+            width: 150px;
+            color: #a430cd;
+        }
+    }
+
+       
+
+    
+    }
+   }
+    
+  
+    
+   
+}
